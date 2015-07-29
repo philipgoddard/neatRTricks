@@ -2,7 +2,7 @@
 # option to use regexp or direct subsetting (which may be faster,
 # although not as flexible)
 
-# test that works for lapply()? eg if have cahnges to make for multiple columns
+# TODO:
 # implement foreach to do in parallel?
 
 replace <- function(x, curr, replace, regex = FALSE, ...) {
